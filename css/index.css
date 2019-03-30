@@ -185,6 +185,56 @@ nav a{
     padding-right: 0;
 }
 
+/*about page styles*/
+
+.about-description{
+    padding-bottom:25px;
+}
+
+.learn-more{
+    display:flex;
+    flex-wrap:wrap;
+    margin:30px 0;
+    justify-content:space-around;
+}
+
+.learn-more section{
+    width:390px;
+    padding:20px 0;
+    font-size:12px;
+}
+
+.learn-more section img, p {
+    margin-bottom:10px;
+}
+
+.learn-more img{
+    height:200px;
+}
+
+.learn-more section p{
+    width:320px;
+}
+
+.dotted{
+    border-bottom:1px dotted black;
+}
+
+.button-learn{
+    text-decoration:none;
+    color:black;
+    width:200px;
+    border-radius:15px;
+    border:1px solid black;
+    font-size:12px;
+    padding:5px 20px;
+
+}
+
+.about-together{
+    padding:20px 0;
+}
+
 footer {
     width: 100%;
     background: black;
