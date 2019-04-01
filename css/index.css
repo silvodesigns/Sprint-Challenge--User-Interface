@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    display:flex;
+    height:70px;
+    margin-top:25px;
+}
+
+.logo{
+    height:40px;
+}
+
+nav{
+    width:700px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+.jumbo, .jumbo-about{
+    margin:25px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +130,46 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Color for the boxes */
+
+.one{
+    background-color:teal;
+}
+.two{
+     background-color:gold;
+}
+.three{
+     background-color:cadetblue;
+}
+.four{
+     background-color:coral;
+}
+.five{
+     background-color:crimson;
+}
+.six{
+     background-color:forestgreen;
+}
+.seven{
+     background-color:darkorchid;
+}
+.eight{
+     background-color:hotpink;
+}
+.nine{
+     background-color:indigo;
+}
+.ten{
+     background-color:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -124,6 +183,55 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/*about page styles*/
+
+.about-description{
+    padding-bottom:25px;
+}
+
+.learn-more{
+    display:flex;
+    flex-wrap:wrap;
+    margin:30px 0;
+    justify-content:space-between;
+}
+
+.learn-more section{
+    display:flex;
+    flex-direction:column;
+    width:380px;
+    padding:20px 0;
+    font-size:12px;
+}
+
+.learn-more section img, p {
+    margin-bottom:10px;
+}
+.learn-more p{
+    width:300px;
+    font-size:14px;
+}
+
+.dotted{
+    border-bottom:1px dotted black;
+}
+
+.button-learn{
+    text-decoration:none;
+    color:black;
+    width:120px;
+    border-radius:15px;
+    border:2px solid black;
+    font-size:12px;
+    padding:10px 20px;
+    text-align:center;
+
+}
+
+.about-together{
+    padding:20px 0;
 }
 
 footer {
